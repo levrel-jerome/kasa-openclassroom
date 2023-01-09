@@ -6,7 +6,7 @@ function Carousel (props) {
 
     const [count, setCount] = useState(0);
 
-
+    console.log(count+1);
     const lastImage = () => {
         if(count > 0) {
             setCount(count -1)
@@ -42,6 +42,7 @@ function Carousel (props) {
         <div className="image-logement-id">
                   {hideButtonLeft()}
                   <img src={props.image[count]} alt="" />
+                  <p className='compteur'>{count+1}/{length}</p>
                   {hideButtonRight()}
         </div>
     )

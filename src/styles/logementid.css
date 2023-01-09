@@ -12,6 +12,15 @@
     object-fit:cover;
 }
 
+.compteur {
+    position: absolute;
+    z-index: 1;
+    top: 85%;
+    left: 48%;
+    font-size: 18px;
+    color: white;
+}
+
 .fleche-gauche {
     height: 20px;
     width: 11px;
