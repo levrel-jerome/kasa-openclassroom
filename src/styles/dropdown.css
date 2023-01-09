@@ -1,0 +1,35 @@
+.dropdown-global {
+    margin: auto;
+    width: 70%;
+}
+
+.about-dropdown{
+    flex-grow: 1;
+}
+
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.dropdown-about {
+    font-size: 24px;
+    color: white;
+    background-color:#FF6060;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.dropdown-text {
+    display: none;
+    background-color: #F7F7F7;
+    color: #FF6060;
+}
+
+.dropdown-text-open {
+    display: flex;
+}
